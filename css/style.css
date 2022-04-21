@@ -1,0 +1,54 @@
+body {
+  font-family: 'Helvetica';
+  font-size: 20px;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 25px;
+}
+
+.box {
+  display: grid;
+  background-color: #47a4bb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.image1 {
+  height: 130px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 40px;
+  grid-column: 2;
+  text-align: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+h2 {
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+
+.lessons {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-bottom: 2px solid black;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #47a4bb;
+  padding: 20px;
+  text-align: center;
+}
+
+#lastmod {
+  font-size: smaller;
+}
