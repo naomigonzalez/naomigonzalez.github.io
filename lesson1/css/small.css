@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Kaushan+Script&family=Yellowtail&display=swap");
+
+
+:root {
+  --primary-color: white;
+  --secondary-color: #47a4bb;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+  background-color: white;
+  max-width: 1000px;
+}
+
+header {
+  background-color: #47a4bb;
+  color: black;
+  border-radius: 5px;
+  padding: 1em;
+  text-align: center;
+}
+
+.box {
+  background-color: #47a4bb;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+
+#content {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  padding: 2em;
+}
+
+.principle {
+  background-color: lightgrey;
+  margin: 3em;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+
+footer {
+  max-width: 1000px;
+  background-color: #47a4bb;
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#lastmod {
+  font-size: smaller;
+}
