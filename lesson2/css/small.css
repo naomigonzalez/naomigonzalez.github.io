@@ -1,0 +1,145 @@
+:root {
+  --primary-color: grey;
+  --secondary-color: #827c7c;
+}
+
+
+header,
+footer {
+  background-color: rgb(71, 22, 136);
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+body {
+  font-family: monospace;
+  font-size: 1rem;
+  margin: auto;
+}
+
+main {
+  margin: 10px;
+  background-color: white;
+  padding: 2em;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-right: 35px;
+}
+
+ul {
+  list-style: square;
+}
+
+footer a,
+footer a:visited,
+li a:visited {
+  color: lightskyblue;
+}
+
+/* Hamburger button */
+
+nav {
+  margin: 0 auto;
+  max-width: 900px;
+}
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background-color: #373737;
+  transition: 0.5s;
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+#hamburgerbtn span:nth-child(1) {
+  display: block;
+  align-items: center;
+}
+#hamburgerbtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerbtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerbtn.open span:nth-child(2) {
+  display: block;
+}
+
+nav button {
+  color: #536878;
+  background-color: #f6f1ea;
+  transition: 0.5s;
+  border: none;
+  font-size: 2rem;
+}
+
+nav a:hover {
+  background-color: #f2f3ae;
+  color: #36454f;
+}
+
+/* Target Audience */
+.persona_img,
+.site_logo {
+  max-width: 200px;
+  border-radius: 5%;
+  border-style: double;
+}
+
+#color_scheme {
+  max-width: 100%;
+  border-radius: 5%;
+  border-style: double;
+}
+
+.h_sample {
+  font-family: "Mukta", sans-serif;
+}
+
+.p_sample {
+  font-family: "Outfit", sans-serif;
+}
+
+/* Color Scheme */
+
+#header_example {
+  background-color: #023e8a;
+  color: white;
+  overflow: hidden;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+#background_example {
+  background-color: #caf0f8;
+  color: black;
+  overflow: hidden;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+#accent_example {
+  background-color: #00b4d8;
+  color: black;
+  overflow: hidden;
+  font-size: 2rem;
+  line-height: 150%;
+}
