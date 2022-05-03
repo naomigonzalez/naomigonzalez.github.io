@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Preston Town Page Start " />
+  <title>Preston Town Page Start</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+
+  <script defer src="js/weather.js"></script>
+</head>
+
+
+<body>
+  <p id="banner"></p>
+  <header>
+    <div class="headings">
+      <img class="logo" src="images/logo.png" alt="logo" width="150" />
+      <h1>The Weather Fit<br>
+        <span class="motto">Choose the perfect outfit <br>based on the weather of the day</span>
+      </h1>
+    </div>
+
+    <nav>
+      <div id="header">
+        <div id="nav">
+          <button id="hamburgerbtn">
+            <span>&#9776;</span><span>X</span>
+          </button>
+          <ul id="primarynav">
+            <li><a href="#">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery </a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2 class="cityname">Preston, Idaho</h2>
+    <div>
+      <div class="contentbox">
+        <h2>Hero w/ weather summary</h2>
+      </div>
+    </div>
+
+    <div>
+      <div class="contentbox">
+        <h2>5 Day Forecast</h2>
+      </div>
+    </div>
+
+    <div class="contentbox">
+      <article>
+        <h2>Article</h2>
+      </article>
+    </div>
+
+    <div class="contentbox">
+      <h2>Contact Information</h2>
+    </div>
+  </main>
+
+
+  <footer>
+    <p>&copy; <span id="year"></span> | Naomi Gonzalez | Mexico |
+      <a href="https://www.byui.edu/online"> BYUI Online Learning</a></p>
+    <p>
+      <p>The current date is: <span id="current_date"></span></p>
+      <span id="last_update"></span>
+    </p>
+  </footer>

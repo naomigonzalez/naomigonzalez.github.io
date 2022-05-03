@@ -1,0 +1,155 @@
+:root {	
+  --primary-color: #0D9DE3	; 			 
+  --secondary-color: #FFDD00;			
+  --accent1-color: #5C6F9F;			
+}	
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.accent1 {
+  background-color: var(--accent1-color);
+}
+header,
+footer {
+  background-color: var(--primary-color);
+  padding: 5px;
+  color: white;
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin: auto;
+}
+
+main {
+  margin: 10px;
+  background-color: white;
+  padding: 10px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.5em;
+  padding-top: 20px;
+  padding-right: 35px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.headings {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  font-size: 2em;
+  padding: 10px;
+}
+
+.motto {
+  font-size: 0.5em;
+}
+
+.cityname {
+  display: block;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  padding-top: 20px;
+  padding-right: 35px;
+  align-content: center;
+  text-align: center;
+}
+
+.contentbox {
+  display: block;
+  border: 1px dashed black;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #eee;
+  color: black;
+}
+
+ul {
+  list-style: square;
+}
+
+footer a,
+footer a:visited,
+li a:visited {
+  color: var(--primary-color);
+}
+
+nav a.current_page,
+nav a:active {
+  background-color: var(--accent1-color);
+  box-shadow: 0 0 10px var(--accent1-color);
+  z-index: 9;
+}
+
+/* Hamburger button */
+
+nav {
+  margin: 0 auto;
+  max-width: 900px;
+}
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  border-radius: 10px;
+}
+nav ul li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 0.75rem;
+  text-decoration: none;
+  font-size: 0.95rem;
+  background-color: var(--secondary-color);
+  transition: 0.5s;
+}
+
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+
+#hamburgerbtn span:nth-child(1) {
+  display: block;
+  align-items: center;
+}
+#hamburgerbtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerbtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerbtn.open span:nth-child(2) {
+  display: block;
+}
+
+nav button {
+  color: #536878;
+  background-color: #f6f1ea;
+  transition: 0.5s;
+  border: none;
+  font-size: 2rem;
+}
+
+nav a:hover {
+  background-color: var(--accent1-color);
+}
+
+
